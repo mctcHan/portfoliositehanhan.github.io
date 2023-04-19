@@ -1,0 +1,38 @@
+ 		<div id="item1" class="item">
+                    <div id="md" class="t-nail">
+                        <h2>MD</h2>
+                        <p class="data">metadata</p>
+                    </div>
+                </div> 
+                <div id="item2" class="item">
+                    <div id="mt" class="t-nail">
+                        <h2>MT</h2>
+                        <p class="data">metatag</p>
+                    </div>
+                </div>  
+                <div id="item3" class="item">
+                    <div id="mf" class="t-nail">
+                        <h2>MF</h2>
+                        <p class="data">metafile</p>
+                    </div>
+                </div>  
+                <div id="item4" class="item">
+                    <div id="mv" class="t-nail">
+                        <h2>MV</h2>
+                        <p class="data">metaverse</p>
+                    </div>
+                </div> 
+
+
+
+.t-nail 
+{
+    background: rgba(255, 255, 255, .3);
+    border: 5px solid #373738;
+
+}
+
+h2 {color: #FF9900; font-size: 4em; margin: 30px 0 0 0;}
+.data {color: #22A0FC; font-size: 2em; font-weight: bold; margin-top: 0;}
+
+
