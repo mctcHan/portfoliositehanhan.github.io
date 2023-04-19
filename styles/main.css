@@ -1,0 +1,41 @@
+body,html
+{height:100%}
+body{color:#6c6f73;
+    text-rendering:optimizeLegibility}h1,h2,h3,h4,h5{color:#333}h6{text-transform:uppercase;font-weight:700;font-size:.8rem;letter-spacing:.1rem}img{max-width:100%}.blockquote{border:none;color:#333;font-size:1.6rem;padding:0}.blockquote-footer{margin:1rem 0 0}.feature-alt{background:#f0f0f0}.feature-four .feature-content{padding:0}.feature-content{padding:8rem 0;overflow:hidden}.feature-content img{margin-bottom:-8rem}.feature-dark{background:#262f36;color:#fff}.feature-dark h2{color:#fff}.main-footer{background:#262f36;color:#fff;padding:6rem 0;font-size:.8rem}.main-footer h6{color:#718fa9}.main-footer a{color:#6c6f73}.stage{-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:url(../img/stage.jpg) center center no-repeat;background-size:cover;color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;height:100%;width:100%}.stage-caption{font-size:1.4rem;font-weight:200;margin:0 auto;max-width:60rem;text-align:center}.stage-caption h1{color:#fff;font-weight:700;text-transform:uppercase}@media screen and (min-width:991px){.row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}
+
+
+    #navbarUline{
+        opacity: 90%;
+    }
+
+    #navbarUline ul li a{
+        position: relative;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #000;
+        /* text-transform: ; */
+        letter-spacing: 0.2;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #navbarUline ul li a::before{
+        content: '';
+        position:absolute;
+        bottom: -2px;
+        width: 20%;
+        height: 1.5px;
+        background-color:#ec4a14;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+        transform-origin: right;
+    }
+    
+    #navbarUline ul li a:hover::before{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+
+    .ContactColor {
+        color: #fff !important;
+    }
