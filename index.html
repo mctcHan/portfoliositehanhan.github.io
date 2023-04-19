@@ -28,10 +28,10 @@
             <a class="nav-link" href="index.html#dd">My-Grph</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#ee">Resume</a>
+            <a class="nav-link" href="index.html#ee">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-danger ContactColor" href="index.html#ee">PM me</a>
+            <a class="btn btn-danger ContactColor" href="index.html#ff">PM me</a>
           </li>
         </ul>
       </div>
@@ -169,7 +169,7 @@
       </div>
     </section>
 
-    <section class="feature-six feature-dark">
+    <section class="feature-six feature-dark" id="ee">
       <div class="container">
         <div class="feature-content">
           <div class="row">
@@ -193,7 +193,7 @@
       </div>
     </section>
 
-    <section class="feature-seven" id="ee">
+    <section class="feature-seven" id="ff">
       <div class="container">
         <div class="feature-content">
           <div class="row">
@@ -211,6 +211,8 @@
         </div>
       </div>
     </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <footer class="main-footer">
       <div class="container justify-content-between">
@@ -234,7 +236,7 @@
               <h6>links</h6>
               <ul class="list-unstyled">
                 <li><a href="https://www.facebook.com/profile.php?id=100086762095055" target="_blank"><i class="bi bi-facebook"></i>&nbsp; Facebook</a></li>
-                <li><a href="https://www.instagram.com/hanhanhanhanhanhan.han/"><i class="bi bi-instagram"></i>&nbsp;Instagram</a></li>
+                <li><a href="https://www.instagram.com/hanhanhanhanhanhan.han/" target="_blank"><i class="bi bi-instagram"></i>&nbsp;Instagram</a></li>
                 <li><a href="https://junweihan.myportfolio.com/" target="_blank"><i class="bi bi-behance"></i>&nbsp;Adobe</a></li>
                 <li><a href="https://github.com/mctcHan/mctcHan" target="_blank"><i class="bi bi-github"></i>&nbsp;Github</a></li>
               </ul>
@@ -256,5 +258,31 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+    <!-- back to top button -->
+    <script>
+
+      // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 3666px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 5666 || document.documentElement.scrollTop > 5666) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+
   </body>
 </html>
