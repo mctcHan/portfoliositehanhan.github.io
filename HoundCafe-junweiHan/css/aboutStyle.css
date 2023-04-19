@@ -1,0 +1,150 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+a, li{
+    text-decoration: none;
+}
+
+/* .navbar-brand .img-fluid {
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+} */
+
+h1 {
+    color: #000000;
+
+}
+
+
+.navbar {
+    background-color: #F5D5AE;
+}
+
+#navShadow {
+    box-shadow: 0 1px 10px red;
+}
+
+#about  {
+    background-color: #EF9A53;
+}
+
+section #spotlight  {
+    background-color: #F5D5AE;
+}
+
+.btn {
+    background-color: #EF9A53;
+   border: #EF9A53;;
+}
+
+.btn:hover {background-color: #C539B4;}
+
+.navbar-nav .nav-item .nav-link {
+    color: #EF9A53;
+}
+
+
+.navbar-nav .nav-item:active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff;
+}
+
+.container p {
+    /* imges zoom by han wk4  overflow: hidden;*/
+    overflow: hidden;
+    font-size: 16px;
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: none;
+}
+
+/* Thumbnails start  */
+
+/* .t-nail {
+    background: rgba(255, 255, 255, .2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    cursor: pointer;
+    
+} */
+
+/* .t-nail img {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+} */
+
+/* imges zoom by han wk4 */
+.t-nail img:hover{
+    transition: all 0.6s;
+    transform: scale(1.25);
+}
+
+h4 {
+    color: #000; 
+    font-size: 2em; 
+    margin: 30px 0 0 0;
+}
+
+.data {
+    color: #fff; 
+    font-size: 2em; 
+    font-weight: thin; 
+    margin-top: 0;
+}
+
+/* section background img here*/
+/* .keyboard {
+    background-image: url(./imagesFromWebi1622wk12/item-bgc.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+} */
+
+
+
+/* hounds show img */
+
+/* #item1 {
+    background-image: url(download/10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#item2 {
+    background-image: url(download/11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#item3 {
+    background-image: url(download/12.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#item4 {
+    background-image: url(download/13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+footer {
+    background-color:  #C539B4;
+}
+
+#wide {
+    max-width: 100% !important;
+    background-color: #C539B4 !important;
+}
+
+footer .navbar {
+    background-color: #C539B4;
+}
+
+#address a {
+    font-size: .75rem;
+    color: #fff;
+}
